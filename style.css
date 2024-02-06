@@ -34,6 +34,7 @@ img{
 }
 .discount-price{
     color: red;
+    font-weight: 700;
 }
 .price{
     text-decoration: line-through;
