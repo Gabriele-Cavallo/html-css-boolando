@@ -115,6 +115,15 @@ a{
     padding: 5px;
     font-weight: 700;
 }
+.card:hover .default{
+    display: none;
+}
+.hover{
+    display: none;
+}
+.card:hover .hover{
+    display: block;
+}
 
 /* #endregion ---- /Main ---- */
 
