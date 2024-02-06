@@ -55,6 +55,9 @@ nav a , footer a{
 h5{
     padding-bottom: 10px;
 }
+.like:hover{
+    color: red;
+}
 /* #endregion ---- /Typography ---- */
 
 /* #region ---- Header ---- */
