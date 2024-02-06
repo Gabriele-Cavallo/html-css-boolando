@@ -25,6 +25,19 @@ img{
 .col{
     width: 450px;
 }
+nav a , footer a{
+    margin-right: 10px;
+    text-decoration: none;
+    font-weight: 700;
+}
+.header-container , .footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1380px;
+    position: relative;
+    color: white;
+}
 /* #endregion ---- /General ---- */
 
 /* #region ---- Typography ---- */
@@ -39,6 +52,9 @@ img{
 .price{
     text-decoration: line-through;
 }
+h5{
+    padding-bottom: 10px;
+}
 /* #endregion ---- /Typography ---- */
 
 /* #region ---- Header ---- */
@@ -47,23 +63,11 @@ img{
     min-height: 70px;
     box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
 }
-.header-container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 1380px;
-    position: relative;
-}
 a{
     color: white;
 }
 .link a{
     margin-left: 5px;
-}
-nav a{
-    margin-right: 20px;
-    text-decoration: none;
-    font-weight: 700;
 }
 .logo{
     max-width: 135px;
@@ -77,6 +81,9 @@ nav a{
 
 /* #region ---- Main ---- */
 
+.container:last-child{
+    padding-bottom: 60px;
+}
 .card{
     position: relative;
 }
@@ -110,3 +117,24 @@ nav a{
 }
 
 /* #endregion ---- /Main ---- */
+
+/* #region ---- Footer ---- */
+
+.bg-footer{
+    background-color: #1a1a1a;
+    min-height: 110px;
+}
+.info{
+    line-height: 1.5;
+}
+.info a{
+    font-weight: 100;
+    font-size: 14px;
+}
+.link-bottom a{
+    margin-right: 1px;
+}
+.link-bottom a i{
+    font-size: 20px;
+}
+/* #endregion ---- /Footer ---- */
