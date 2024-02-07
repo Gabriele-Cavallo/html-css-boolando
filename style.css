@@ -144,6 +144,7 @@ h5{
 .bg-footer{
     background-color: #1a1a1a;
     min-height: 110px;
+    padding: 60px 0;
 }
 .info{
     line-height: 1.5;
