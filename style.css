@@ -134,7 +134,7 @@ h5{
     display: none;
 }
 .card:hover .hover{
-    display: block;
+    display: inline-block;
 }
 
 /* #endregion ---- /Main ---- */
